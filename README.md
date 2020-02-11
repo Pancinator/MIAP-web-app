@@ -2,7 +2,7 @@
 Projekt webovej aplikácie pre predmet MIAP.
 
 **Dohoda o používaní repozitára:**
-  - Meniť sa bude iba **DVELOP** branch, ten si každý naklonuje do svojho pracovného priečinka, commits change budú taktiež pushovane len       na develop branch.
+  - Meniť sa bude iba **Develop** branch, ten si každý naklonuje do svojho pracovného priečinka, commits change budú taktiež pushovane len     na develop branch.
   - **Master** branch bude využívaný pre udržiavanie súborov, ktoré sú už ready na odovzdanie. Master by sa mal meniť len minimálne. 
 
 **Užitočné linky a hinty:**
