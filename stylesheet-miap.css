@@ -1,0 +1,30 @@
+.search-box-miap{
+  background: rgb(223, 227, 236);
+  padding: 15px 40px 15px 40px;
+  border: 2px solid rgb(182, 185, 192);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.search-input-miap{
+ margin-right: 5px;
+ margin-top: 5px;
+
+}
+
+.wrap-box-miap{
+  background: rgb(189, 189, 238);
+  padding: 4px 7px 4px 7px;
+  border: 2px solid rgb(182, 185, 192);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.wrap-box-miap label{
+  color: #444;
+  font-weight: bold;
+  font-size: 10px;
+}
