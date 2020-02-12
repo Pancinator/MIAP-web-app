@@ -19,4 +19,3 @@ Projekt webovej aplikácie pre predmet MIAP.
   - index.html- basic HTML stránka 
   - style.css- CSS stylesheet
   - app.js- JS script 
-new
