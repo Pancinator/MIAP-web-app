@@ -14,6 +14,7 @@ Projekt webovej aplikácie pre predmet MIAP.
 **To Do List(zatim):**
   - Pancinator- HTML a CSS navrh
   - Jeyro a Petr- diskuzia a vyladenie homepageu, JS tutoriali a natrenovanie na mini projektikoch.
+  - Zistiť od vedúceho či web musí byť responzívny 
 
 **Obsah repozitára:**
   - index.html- basic HTML stránka 
