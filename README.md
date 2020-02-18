@@ -22,5 +22,6 @@ Projekt webovej aplikácie pre predmet MIAP.
   - style.css- CSS stylesheet pre demostránku
   - application.js- samotný skript 
   - stylesheet-miap.css- CSS subor ktory je vyuzity pre vygenerovane objekto v DOM.
+
   
 
