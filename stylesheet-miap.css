@@ -1,0 +1,52 @@
+.search-box-miap{
+  background: rgb(223, 227, 236);
+  padding: 15px 40px 15px 40px;
+  border: 2px solid rgb(182, 185, 192);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.search-input-miap{
+ margin-right: 5px;
+ margin-top: 5px;
+}
+
+.search-input2-miap{
+  margin-left: 7px;
+  margin-right: 5px;
+  margin-top: 5px;
+  max-width: 50px;
+ }
+
+.wrap-box1-miap{
+  background: rgb(189, 189, 238);
+  padding: 4px 7px 4px 7px;
+  border: 2px solid rgb(182, 185, 192);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.wrap-box2-miap{
+  max-width: 140px;
+  background: rgb(189, 189, 238);
+  padding: 4px 7px 4px 7px;
+  border: 2px solid rgb(182, 185, 192);
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap-box-miap label{
+  color: #444;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.wrap-bo2-miap label{
+  color: #444;
+  font-weight: bold;
+  font-size: 10px;
+}
