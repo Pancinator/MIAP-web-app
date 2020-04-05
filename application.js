@@ -26,6 +26,7 @@ function addRequiredElements(){
   newSearchBox.classList.add("search-box-miap");
   newInputBox1.classList.add("search-input-miap");
   newInputBox1.placeholder = "Search by name...";
+  newInputBox1.onkeyup = function() {searchWithInputText()};
   newBox1.classList.add("wrap-box1-miap");
 
   newLabel2.innerHTML = "Filtrovat podla ceny: ";
@@ -53,6 +54,7 @@ function addCss() {
 /* funkcia pre ziskanie vsetkych class names z pre polozky v zozname */
 function getClassNamesOfItemInList(){
   const classArray = Array.from(document.querySelectorAll(".item"))
+
   for (var i = 0; i < classArray.length; i++) {
     console.log(classArray[i])
   }
@@ -60,20 +62,30 @@ function getClassNamesOfItemInList(){
 
 /* funkcia pre vyuzivanie textoveho prehliadania */
 function searchWithInputText(){
-  var searchBarInput = document.getElementsByClassName("search-input-miap");
-  searchBarInput.addEventListener("keyup", function(e){
-    const temp = e.target.value.toLowerCase();
-    const items = document.querySelectorAll(".item");
-    Array.from(items).forEach(function(item){
-      const title = item.firstElementChild.textContent;
-      
-    })
-  })
-  console.log('this is items constatnt: ' + items)
+  var searchBarInput = document.getElementsByClassName('search-input-miap');
+  console.log(searchBarInput[0]);
+  list = document.getElementById('laptop-list');
+  console.log(list);
+  var input = searchBarInput[0].value.toLowerCase();
+  var shopItems = list.querySelectorAll('.item');
+  
+  for(i=0; i< shopItems.length; i++){
+    let name = shopItems[i].getElementsByClassName('name')[0];
+    let processor = shopItems[i].getElementsByClassName('processor')[0];
+    console.log('name: ', name.innerHTML, processor.innerHTML);
+    if(name.innerHTML.toLowerCase().indexOf(input) > -1){
+      shopItems[i].style.display = "";
+    }
+    else{
+      shopItems[i].style.display = 'none';
+    }
+
+  }
+  
 }
 
 
 addCss();
 addRequiredElements("laptop-list");
 getClassNamesOfItemInList();
-searchWithInputText();
+/*searchWithInputText();*/
